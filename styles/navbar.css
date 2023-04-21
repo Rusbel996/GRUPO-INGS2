@@ -1,0 +1,22 @@
+.menu-auto {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 200px;
+
+  }
+
+  .logo {
+    display: contents;
+    align-items: center;
+    margin-right: auto;
+
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }  
+
+  .font{
+    font-size: 0.6rem;
+  }
