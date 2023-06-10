@@ -38,19 +38,19 @@ const Perfil = () => {
                     <tbody>
                       <tr>
                         <td class='col-md-3'>Nombres y Apellidos:</td>
-                        <td><input type="text" class="form-control input-sm" name="nombre_apellido" value="text"/></td>
+                        <td><input type="text" class="form-control input-sm" name="nombre_apellido" value="Roberto Carlos" /></td>
                       </tr>
                       <tr>
                         <td>Ocupación:</td>
-                        <td><input type="text" class="form-control input-sm" name="ocupacion" value="" required/></td>
+                        <td><input type="text" class="form-control input-sm" name="ocupacion"  /></td>
                       </tr>
                       <tr>
                         <td>Correo electrónico:</td>
-                        <td><input type="email" class="form-control input-sm" name="correo" value=""/></td>
+                        <td><input type="email" class="form-control input-sm" name="correo" value="roberto2carlos@gmail.com" /></td>
                       </tr>
 					  <tr>
                         <td>Telefono:</td>
-                        <td><input type="text" class="form-control input-sm" required name="telefono" value=""/></td>
+                        <td><input type="text" class="form-control input-sm" required name="telefono" /></td>
                       </tr>
 
 					

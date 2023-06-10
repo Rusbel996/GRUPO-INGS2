@@ -1,0 +1,66 @@
+.editContainer {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .editContainer h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .edit {
+    display: flex;
+    gap: 20px;
+  }
+  .left {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .left img {
+    width: 100%;
+  }
+  
+  .right {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .right .flex {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .manyInputs {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  .manyInputs {
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .manyBtn {
+    color: #fff;
+    background-color: #749de9;
+    font-weight: 500;
+    display: flex;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .btn {
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: #10b981;
+    padding: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: 500;
+  }

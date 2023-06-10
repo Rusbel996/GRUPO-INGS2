@@ -7,15 +7,13 @@ const NavBarExample = () => {
        <>    
        <Navbar className="navBg" variant="dark" expand="lg">
         <Container>
-            <div className="logo" alt="">
-            <h1 className="font" >GreenData</h1>
-            </div>
+            
     
-          
-
+        
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
+               <img className="logo" src="https://illustoon.com/photo/2560.png"/>
                 <li class="nav-menu-item">
                 <Nav.Link as={Link} to="/" >Inicio</Nav.Link>
                 </li>
@@ -24,6 +22,9 @@ const NavBarExample = () => {
                 <Nav.Link as={Link} to="/about">Nosotros</Nav.Link>
             
                 <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+                <Nav.Link as={Link} to="/registrar">Registrar</Nav.Link>
+                <Nav.Link as={Link} to="/catalogo">Catalogo</Nav.Link>
+
                 &nbsp;
                 &nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

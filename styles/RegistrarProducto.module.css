@@ -1,0 +1,35 @@
+.registerContainer {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .registerBox h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .form .picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form .picture img {
+    height: 200px;
+  }
+  .btn {
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: #10b981;
+    padding: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: 500;
+  }
